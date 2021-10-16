@@ -18,7 +18,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 // Licence:      GNU General Public License v3.0
 // Description:  
 /**
- * Configuration of agent datasource and JDBC template.
+ * Configuration of agent local datasource and JDBC template.
  * @author jeremy.rickard@easydataservices.com
  * @version 2021.10.10
  */ 
