@@ -3,7 +3,8 @@ package com.easydataservices.db2admintool.agent.config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import com.easydataservices.db2admintool.agent.config.DatabaseConfig;
-import com.easydataservices.db2admintool.agent.db2luw.dao.local.DatabaseSnapshotDao;
+import com.easydataservices.db2admintool.agent.config.RepositoryConfig;
+import com.easydataservices.db2admintool.agent.db2luw.dao.monitor.DatabaseConfigSnapshotDao;
 
 //------------------------------------------------------------------------------
 // File:         AgentContext.java
@@ -19,7 +20,8 @@ import com.easydataservices.db2admintool.agent.db2luw.dao.local.DatabaseSnapshot
 @Import(
   {
     DatabaseConfig.class,
-    DatabaseSnapshotDao.class
+    RepositoryConfig.class,
+    DatabaseConfigSnapshotDao.class
   }
 )
 public class AgentContext {
