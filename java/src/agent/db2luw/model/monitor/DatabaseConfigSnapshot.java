@@ -4,7 +4,7 @@ import java.util.Objects;
 
 //------------------------------------------------------------------------------------------------------------------------------
 // File:         DatabaseConfigSnapshot.java
-// Licence:      GNU General Public License v3.0
+// Licence:      Apache License 2.0
 // Description:  
 /**
  * Bean for Db2 LUW database configuration snapshot. The snapshot is sourced from SYSIBMADM.DBCFG. 

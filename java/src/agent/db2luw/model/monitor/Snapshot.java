@@ -4,7 +4,7 @@ import java.sql.Timestamp;
 
 //------------------------------------------------------------------------------------------------------------------------------
 // File:         Snapshot.java
-// Licence:      GNU General Public License v3.0
+// Licence:      Apache License 2.0
 // Description:  
 /**
  * Parent class for all Db2 monitor snapshots. 
