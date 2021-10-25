@@ -7,7 +7,7 @@ import com.easydataservices.db2admintool.agent.db2luw.dao.monitor.DatabaseConfig
 
 //------------------------------------------------------------------------------
 // File:         Agent.java
-// Licence:      GNU General Public License v3.0
+// Licence:      Apache License 2.0
 // Description:  
 /**
  * Main class for an agent process.
@@ -17,7 +17,7 @@ import com.easydataservices.db2admintool.agent.db2luw.dao.monitor.DatabaseConfig
 //------------------------------------------------------------------------------
 public class Agent {
   public static void main(String[] args) {
-    // Initialise
+    // Initialise.
     ApplicationContext context = new AnnotationConfigApplicationContext(AgentContext.class);
     DatabaseConfigSnapshotDao databaseConfigSnapshotDao = context.getBean(DatabaseConfigSnapshotDao.class);
 
