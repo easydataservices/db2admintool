@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 //------------------------------------------------------------------------------
 // File:         SimpleMonitorSnapshotDao.java
-// Licence:      GNU General Public License v3.0
+// Licence:      Apache License 2.0
 // Description:  
 /**
  * Parent class for monitor snapshots.
