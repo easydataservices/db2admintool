@@ -14,7 +14,7 @@ The project is in its infancy and in active development.
 This is an incomplete and evolving list. Key objectives:
 * ~~Capture by an agent process of one snapshot type from a source database~~
 * ~~Persistence of snapshot to staging area of repository database~~
-* Repository process to transform a snapshot from staging area to final target tables
+* ~~Repository process to transform a snapshot from staging area to final target tables~~
 * Scheduling
 * Alerting
 * Console facility
